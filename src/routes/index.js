@@ -1,9 +1,8 @@
-const formConfigRoute = require('../routes/formConfig')
-const configRoute = require('../routes/Config')
+const FormConfigRoute = require("./formConfig");
+const Home = require("./home");
 
 module.exports = (app) => {
-    // routes
-    formConfigRoute(app)
-    configRoute(app)
-  };
-  
+  // routes
+  FormConfigRoute(app);
+  Home(app);
+};

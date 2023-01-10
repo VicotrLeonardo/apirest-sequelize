@@ -1,6 +1,6 @@
-const formConfig = require('../controllers/formConfig');
+const formConfig = require("../controllers/formConfig");
 
 module.exports = (app) => {
-    app.get('/formConfig', formConfig.getFormConfig);
-  };
-  
+  app.get("/formConfig", formConfig.getConfigForm);
+  app.post("/formConfig", formConfig.postModel);
+};
