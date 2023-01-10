@@ -1,0 +1,23 @@
+{
+  "name": "apirest-sqlite",
+  "version": "1.0.0",
+  "description": "APIREST usando Sequelize e SQLITE",
+  "main": "app.js",
+  "scripts": {
+    "start-dev": "nodemon ./src/server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sequelize",
+    "nodejs",
+    "sqlite3"
+  ],
+  "author": "Victor Leonardo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "sequelize": "^6.28.0",
+    "sqlite3": "^5.1.4"
+  }
+}
